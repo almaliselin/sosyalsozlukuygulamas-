@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(232, 249, 253);
+}
+
+.links {
+    color: rgb(89, 206, 143);
+    text-decoration: none;
+}
+
+#headernav {
+    text-decoration: underline;
+}
+
+
+#anabaslık {
+    color: rgb(255, 30, 0);
+    font-size: 200%;
+}

@@ -1,0 +1,18 @@
+aside {
+
+    width: 375px;
+    height: 305px;
+}
+
+.yaziarkasi {
+    background-color: #000000;
+}
+
+#sidebar {
+    height: 270px;
+}
+
+article {
+
+    width: fit-content;
+}
