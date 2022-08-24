@@ -1,18 +1,31 @@
-aside {
-
-    width: 375px;
-    height: 305px;
+.links {
+    text-decoration: none;
+    color: #FF8C8C;
+    margin: 10px;
 }
 
-.yaziarkasi {
-    background-color: #000000;
+#sidebar>ul {
+    padding-inline-start: 5px;
+}
+
+#sidebar>ul>li>h3 {
+    color: #FF5D5D;
 }
 
 #sidebar {
-    height: 270px;
+    width: 30%;
+    display: inline-block;
+    margin: 5px;
+    text-align: left;
 }
 
-article {
+.yaziarkasi {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    margin: 5px;
+}
 
-    width: fit-content;
+.yaziarkasi>article {
+    margin: 5px;
 }

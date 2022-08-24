@@ -8,6 +8,11 @@
     <title>Anasayfa | tatlı sözlük</title>
     <link rel="stylesheet" href="C:\Users\Lenovo\Desktop\sosyalsozlukuygulaması\css\ortak.css">
     <link rel="stylesheet" href="C:\Users\Lenovo\Desktop\sosyalsozlukuygulaması\css\anasayfa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,500&family=Poppins:wght@200;400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -15,13 +20,18 @@
     <header>
 
 
-        <nav class="nav">
-            <a href="C:\Users\Lenovo\Desktop\sosyalsozlukuygulaması\anasayfalar\anasayfa.html" id="headernav"
-                class="links">Anasayfa</a>
-            <a href="C:\Users\Lenovo\Desktop\sosyalsozlukuygulaması\eksayfalar\girisyap_uyeol.html" id="headernav"
-                class="links">Giriş/Kayıt</a>
-            <a href="C:\Users\Lenovo\Desktop\sosyalsozlukuygulaması\eksayfalar\profil.html" id="headernav"
-                class="links">Profil</a>
+        <nav class="headnav">
+            <a href="C:\Users\Lenovo\Desktop\sosyalsozlukuygulaması\anasayfalar\anasayfa.html"
+                id="headernav">Anasayfa</a>
+            <a href="C:\Users\Lenovo\Desktop\sosyalsozlukuygulaması\eksayfalar\girisyap_uyeol.html"
+                id="headernav">Giriş/Kayıt</a>
+            <a href="C:\Users\Lenovo\Desktop\sosyalsozlukuygulaması\eksayfalar\profil.html" id="headernav">Profil</a>
+            <div id="aramamotoru">
+                <form action="#">
+                    <label for="aramamotoru" style="color:rgb(0, 0, 0);">Aramak İstediğiniz:</label>
+                    <input type="search" placeholder="Neyi aramıştınız?">
+                </form>
+            </div>
         </nav>
 
 
@@ -29,127 +39,101 @@
             <h1>Tatlı Sözlük</h1>
         </div>
 
-        <form action="#">
-            <label for="aramamotoru" style="color:rgb(0, 0, 0);">Aramak İstediğiniz:</label>
-            <input type="search" placeholder="Neyi aramıştınız?" id="aramamotoru">
-        </form>
+
 
         <hr>
     </header>
 
 
 
-    <aside>
-        <nav class="yaziarkasi" id="sidebar">
-            <ul style="list-style-type: none;">
-                <li>
-                    <h3 style="color: white;">Gündemdekiler</h3>
-                </li>
-                <li>
-                    <a href="#" class="links">Ayder yaylasının son
-                        hali</a>
-                </li>
-                <li>
-                    <p> </p>
-                </li>
-                <li>
-                    <a href="#" class="links">Tiktok videosu
-                        çekmeye en meyilli
-                        meslek grupları</a>
-                </li>
-                <li>
-                    <p> </p>
-                </li>
-                <li>
-                    <a href="#" class="links">Dünya solaklar
-                        günü</a>
-                </li>
-                <li>
-                    <p> </p>
-                </li>
-                <li>
-                    <a href="#" class="links">Milas'ta 7 yıldır
-                        çadırda yaşayan
-                        adam</a>
-                </li>
-                <li>
-                    <p> </p>
-                </li>
-                <li>
-                    <a href="#" class="links">Ben de oradaydım
-                        denilen tarihi
-                        olaylar</a>
-                </li>
-                <li>
-                    <p> </p>
-                </li>
-                <li>
-                    <a href="#" class="links">Şifreli bir mesaj
-                        bırak</a>
-                </li>
-                <li>
-                    <p> </p>
-                </li>
-                <li>
-                    <a href="#" class="links">1 yıl sonra kendine
-                        not</a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
+    <nav id="sidebar">
+        <ul style="list-style-type: none;">
+            <li>
+                <h3>Gündemdekiler</h3>
+            </li>
+            <li class="links">
+                <a href="#" class="links">Ayder yaylasının son
+                    hali</a>
+            </li>
+            <li class="links">
+                <a href="#" class="links">Tiktok videosu
+                    çekmeye en meyilli
+                    meslek grupları</a>
+            </li>
+            <li class="links">
+                <a href="#" class="links">Dünya solaklar
+                    günü</a>
+            </li>
+            <li class="links">
+                <a href="#" class="links">Milas'ta 7 yıldır
+                    çadırda yaşayan
+                    adam</a>
+            </li>
+            <li class="links">
+                <a href="#" class="links">Ben de oradaydım
+                    denilen tarihi
+                    olaylar</a>
+            </li>
+            <li class="links">
+                <a href="#" class="links">Şifreli bir mesaj
+                    bırak</a>
+            </li>
+            <li class="links">
+                <a href="#" class="links">1 yıl sonra kendine
+                    not</a>
+            </li>
+        </ul>
+    </nav>
 
 
-    <article class="yaziarkasi">
-        <h2 style="color: rgb(89, 206, 143);">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Possimus,
-            totam!</h2>
-        <p style="color: rgb(232, 249, 253);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-            molestias rerum reprehenderit quia, facere
-            consequatur assumenda omnis explicabo officia debitis necessitatibus sed aperiam odit
-            dignissimos magnam
-            quae a maiores quod?</p>
-    </article>
+    <div class="yaziarkasi">
+        <article>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus,
+                totam!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                molestias rerum reprehenderit quia, facere
+                consequatur assumenda omnis explicabo officia debitis necessitatibus sed aperiam odit
+                dignissimos magnam
+                quae a maiores quod?</p>
+        </article>
 
-    <article class="yaziarkasi">
-        <h2 style="color: rgb(89, 206, 143);">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Itaque,
-            autem.
-        </h2>
-        <p style="color: rgb(232, 249, 253);">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta veniam vel incidunt cum,
-            ducimus, omnis
-            quis
-            eos magnam, sint saepe possimus. Possimus rem sint quibusdam labore iusto corrupti atque nemo
-            quod
-            aperiam
-            vitae! Sunt dolore optio, sit doloribus voluptas quam.
-        </p>
-    </article>
+        <article>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Itaque,
+                autem.
+            </h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta veniam vel incidunt cum,
+                ducimus, omnis
+                quis
+                eos magnam, sint saepe possimus. Possimus rem sint quibusdam labore iusto corrupti atque nemo
+                quod
+                aperiam
+                vitae! Sunt dolore optio, sit doloribus voluptas quam.
+            </p>
+        </article>
 
-    <article class="yaziarkasi">
-        <h2 style="color: rgb(89, 206, 143);">Lorem ipsum dolor sit.</h2>
-        <p style="color: rgb(232, 249, 253);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-            unde
-            corporis ad, cum repellat recusandae
-            ex ea eligendi? Maiores, provident.</p>
-    </article>
+        <article>
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                unde
+                corporis ad, cum repellat recusandae
+                ex ea eligendi? Maiores, provident.</p>
+        </article>
+    </div>
 
-    <hr>
+
     <footer>
+        <hr>
         <nav class="nav">
-            <a href="#" class="links">Kariyer</a>
-            <span style="color:rgb(232, 249, 253);">______________</span>
-            <a href="#" class="links">Basında Biz</a>
-            <span style="color:rgb(232, 249, 253);">______________</span>
-            <a href="#" class="links">Reklam</a>
-            <span style="color:rgb(232, 249, 253);">______________</span>
-            <a href="#" class="links">İnstagram</a>
-            <span style="color:rgb(232, 249, 253);">______________</span>
-            <a href="#" class="links">Twitter</a>
-            <span style="color:rgb(232, 249, 253);">______________</span>
-            <a href="#" class="links">Facebook</a>
-            <span style="color:rgb(232, 249, 253);">______________</span>
-            <a href="#" class="links">Youtube</a>
+            <a href="#">Kariyer</a>
+            <a href="#">Basında Biz</a>
+            <a href="#">Reklam</a>
+            <a href="#">İnstagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">Youtube</a>
         </nav>
     </footer>
 </body>
